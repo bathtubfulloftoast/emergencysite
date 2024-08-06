@@ -1,0 +1,54 @@
+@font-face { font-family: SetoFont; src: url('/misc/media/setofont.woff'); }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    text-align:center;
+    font-family: SetoFont;
+    overflow-x: hidden;
+
+}
+
+.box {
+    background-color: var(--bg2);
+    width: 40%;
+    margin: auto;
+    border-radius: 1em;
+    font-size:20px;
+    margin-top:20px;
+    padding:20px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    display: inline-block;
+}
+
+.game {
+width:640px;
+height:480px;
+max-width:100%;
+margin:auto;
+border: 10px solid var(--bg3);
+border-radius: 1em;
+}
+
+hr {
+    border: 2px solid var(--tophr);
+    margin: -10px -10px 20px;
+    margin-top:20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:link, a:visited{
+    color: var(--link);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--link-hover);
+}

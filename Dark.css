@@ -1,0 +1,62 @@
+:root {
+    /* Text / General Colors */
+    --bg: #121212; /* Darker background */
+    --bg2: #1d1d1d; /* Slightly lighter dark background */
+    --bg3: #2c2c2c; /* Even lighter dark background */
+    --filebg: url(transparency.png);
+    --bgimg:;
+
+    --text: #e0e0e0; /* Light gray text */
+
+    --select: #424242; /* Dark selection */
+    --select-text: #ffffff; /* White text on selection */
+
+    --code-bg: #2c2c2c; /* Dark background for code blocks */
+    --code-text: #e0e0e0; /* Light gray text in code blocks */
+    --code-select: #424242; /* Dark selection in code blocks */
+    --code-select-text: #ffffff; /* White text on selection in code blocks */
+    --code-border: #333333; /* Dark border for code blocks */
+
+    --spoiler: #1a1a1a; /* Dark background for spoilers */
+    --spoiler-revealed: #2a2a2a; /* Slightly lighter when revealed */
+    --spoiler-text: #e0e0e0; /* Light gray text in spoilers */
+
+    --tophr: #2c2c2c; /* Dark horizontal rule */
+
+    /* Link Colors */
+    --navicon: #6a6a6a; /* Dark gray nav icons */
+    --navicon-hover: #9e9e9e; /* Lighter gray on hover */
+
+    --link: #bb86fc; /* Light purple link */
+    --link-hover: #3700b3; /* Dark purple on hover */
+
+    --button: #333333; /* Dark button background */
+    --button-hover: #444444; /* Slightly lighter on hover */
+    --button-text: #e0e0e0; /* Light gray button text */
+
+    --daybutton-main: #1c1c1c; /* Dark main button */
+    --daybutton-hover: #333333; /* Darker on hover */
+    --daybutton-text: #b0b0b0; /* Light gray button text */
+
+    --daybutton-invalid: #2c2c2c; /* Dark invalid button */
+    --daybutton-invalid-text: #444444; /* Slightly lighter text */
+
+    --daybutton-end: #3d3d3d; /* Dark end button */
+    --daybutton-end-hover: #4d4d4d; /* Darker on hover */
+    --daybutton-end-text: #b0b0b0; /* Light gray button text */
+
+    /* "Special" HTML Tag Colors */
+    --progress-color: #bb86fc; /* Light purple progress */
+    --progress-bg: #333333; /* Dark progress background */
+    --loading-border: #666666; /* Gray loading border */
+
+    --table-bg: #1a1a1a; /* Dark table background */
+    --table-bg2: #2a2a2a; /* Slightly lighter table background */
+    --table-border: #333333; /* Dark table border */
+    --table-text: #e0e0e0; /* Light gray table text */
+
+    --input-bg: #1a1a1a; /* Dark input background */
+    --input-border: #333333; /* Dark input border */
+    --input-text-color: #e0e0e0; /* Light gray input text */
+    --input-text-temp: #666666; /* Gray temporary input text */
+}

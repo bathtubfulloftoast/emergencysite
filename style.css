@@ -1,4 +1,4 @@
-@font-face { font-family: SetoFont; src: url('/misc/media/setofont.woff'); }
+@font-face { font-family: SetoFont; src: url('misc/media/setofont.woff'); }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
@@ -269,12 +269,12 @@ button:active {
     .links {
         width:99%;
     }
-    
 
-.weather > div:nth-child(1) {
-padding-top:15px;
-font-size:10px;
-}
+
+    .weather > div:nth-child(1) {
+        padding-top:15px;
+        font-size:10px;
+    }
 
 }
 
